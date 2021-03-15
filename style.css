@@ -19,7 +19,10 @@ p {
   font-family:didot;
   font-style:normal;
   }
- body {
+.AboutUs {
+    background-image: url("images/AU.jpg");
+  background-attachment: fixed;
+  background-size: 120%;
+}
    
-    
-  }
+  
