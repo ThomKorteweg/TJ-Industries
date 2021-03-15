@@ -1,5 +1,8 @@
 body
 {
-  background-image: url("AU.jpg")
+  background-image: url("images/AU.jpg");
   background-attachment: fixed;
-  }
+  background-size: 120%;
+  
+  
+  } 
