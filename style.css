@@ -8,16 +8,19 @@ div {
   border:3px solid black;
   background-color: white;
   margin-left:5%;
+  margin-top: 5%;
   margin-right:5%;
   border-radius:5px;
 }
 h2 {
-  margin-left:10%;
   font-style:unset;
 }
 body
 {
   background-image: url("images/ML.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 101%;
 }
 p {
   font-size:20px;
@@ -29,6 +32,7 @@ p {
     background-image: url("images/AU.jpg");
   background-attachment: fixed;
   background-size: 120%;
+  background-repeat: no-repeat;
 }
    
   ul {
@@ -36,14 +40,14 @@ p {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: blueviolet;
+  background-color: rgba(0, 255, 149, 0.24);
 }
 
 li {
   float: left;
 }
 
-li a {
+a {
   display: block;
   color: white;
   text-align: center;
