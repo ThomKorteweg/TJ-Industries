@@ -30,9 +30,9 @@ p {
   font-style:normal;
   }
 .AboutUs {
-    background-image: url("images/AU.jpg");
+    background-image: url("images/ML.jpg");
   background-attachment: fixed;
-  background-size: 120%;
+  background-size: 101%;
   background-repeat: no-repeat;
 }
    
