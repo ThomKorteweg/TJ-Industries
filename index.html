@@ -3,6 +3,9 @@
 <title> TJ-Industries </title>
 <link rel="shortcut icon" type="image/png"  href="images/TJ-Industries.png"/>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 <html>
   <ul>  
 <img class="logo"src="images/TJ-Industries.png">
@@ -11,16 +14,20 @@
   <li><a href="contact.html">Contact</a></li>
   <li><a href="gebruikvanmlnu">Gebruik van machine learning</a></li>
 </ul>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+  <a href="OverOns.html">About us</a>
+  <a href="contact.html">Contact</a>
+  <a href="gebruikvanmlnu">Gebruik van machine learning</a>
+  </div>
+</div>
+<span class="burger"style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 
-  
-  <h2>
 
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <div> 
+    <div class="text"> 
   <h2>  Machine Learning </h2>
   <body>
     <nav>
@@ -31,7 +38,15 @@
  </p>
     </div>
   </body>
-  
+  <script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 
 
