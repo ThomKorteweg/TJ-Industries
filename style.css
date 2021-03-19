@@ -29,13 +29,13 @@ p {
   font-family:didot;
   font-style:normal;
   }
-.AboutUs {
+.AboutUs  {
     background-image: url("images/ML.jpg");
   background-attachment: fixed;
   background-size: 101%;
   background-repeat: no-repeat;
 }
-   
+
   ul {
   list-style-type: none;
   margin: 0;
@@ -121,7 +121,7 @@ li a:hover {
 }
 
 }
-{video
+video {
 position: relative;
-right: 45px;
+right: -250px;
 }
