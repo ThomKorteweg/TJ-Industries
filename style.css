@@ -3,6 +3,7 @@
   padding: 0 auto;
   
 }
+@media only screen and (min-width: 601px) {
 
 .text {
   border:3px solid black;
@@ -12,15 +13,14 @@
   margin-right:5%;
   border-radius:5px;
   padding: 10px;
-  font-family: didot;
-}
+font-family: 'Roboto', sans-serif;}
 h2 {
   font-style:unset;
 }
 body
 {
   background-image: url("images/ML.jpg");
-  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
   background-size: 101%;
 }
@@ -124,8 +124,17 @@ li a:hover {
 }
 
 }
+}
+@media only screen and (max-width: 1000px) {
+
+}
+@media only screen and (max-width: 1500px) {
+
+}
+
+
+
 video {
-position: relative;
-right: -250px;
+margin-left: 30vw;
 }
 
