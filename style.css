@@ -12,6 +12,7 @@
   margin-right:5%;
   border-radius:5px;
   padding: 10px;
+  font-family: didot;
 }
 h2 {
   font-style:unset;
@@ -58,7 +59,9 @@ a {
 
 li a:hover {
   background-color: #111;
+  opacity: 0.5;
   transition: 600ms;
+
 }
 .active {
   background-color: black;
@@ -125,3 +128,4 @@ video {
 position: relative;
 right: -250px;
 }
+
