@@ -5,16 +5,16 @@
 }
 @media only screen and (min-width: 601px) {
 
-.text {
-  border:3px solid black;
-  background-color: white;
-  margin-left:5%;
-  margin-top: 5%;
-  margin-right:5%;
-  border-radius:5px;
-  padding: 10px;
-font-family: 'Roboto', sans-serif;}
-h2 {
+ .text {
+   border:3px solid black;
+   background-color: white;
+   margin-left:5%;
+   margin-top: 5%;
+   margin-right:5%;
+   border-radius:5px;
+   padding: 10px;
+   font-family: 'Roboto', sans-serif;}
+  h2 {
   font-style:unset;
 }
 body
@@ -24,12 +24,14 @@ body
   background-attachment: fixed;
   background-size: 101%;
 }
+
 p {
   font-size:20px;
   margin-left:4%;
   font-family:didot;
   font-style:normal;
   }
+
 .AboutUs  {
     background-image: url("images/ML.jpg");
   background-attachment: fixed;
@@ -37,7 +39,11 @@ p {
   background-repeat: no-repeat;
 }
 
-  ul {
+.gebruikvanmlnu.html .p{
+  margin-right: 3px;
+}
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -126,7 +132,45 @@ li a:hover {
 }
 }
 @media only screen and (max-width: 1000px) {
+ .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
 
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 @media only screen and (max-width: 1500px) {
 
